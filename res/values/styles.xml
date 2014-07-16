@@ -1,0 +1,39 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="styleContact" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">#E67416</item>
+    </style>
+
+    <style name="styleTitleContact" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:background">@drawable/border_contactinfo</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:paddingLeft">4dp</item>
+    </style>
+
+    <style name="styleForm" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:editable">true</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+</resources>

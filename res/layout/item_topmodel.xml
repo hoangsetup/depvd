@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="2dp"
+    android:paddingTop="2dp" >
+
+    <ImageView
+        android:id="@+id/imageView_thumb_topmodel"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/dsc_img"
+        android:src="@drawable/avata" />
+
+    <TextView
+        android:id="@+id/textView_like_topmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_title_topmodel"
+        android:layout_below="@+id/textView_title_topmodel"
+        android:text="@string/_137_like"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button_toprank"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/pie"
+        android:text="@string/_1"
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_title_topmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/button_toprank"
+        android:text="@string/t_ng_nh_qu_nh"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_loading_avata_topmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_alignTop="@+id/textView_like_topmodel" />
+
+</RelativeLayout>

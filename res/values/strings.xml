@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyBabyGirl</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="numberfone">" +84 1676 322 963"</string>
+    <string name="email">" hoang.dv@outlook.com"</string>
+    <string name="hint_contact">Nhận xét của bạn sẽ được gửi tới email của tôi!</string>
+    <string name="btn_send">Send</string>
+    <string name="contact_form">Contact Form</string>
+    <string name="dsc_img">This is img</string>
+    <string name="filename">"Tên file: "</string>
+    <string name="hint_download">Hệ thống sẽ tự đặt tên, nếu bạn để trống!</string>
+    <string name="btn_download">Download</string>
+    <string name="count_inalbum">0/0</string>
+    <string name="btn_xemthem">Xem nữa nhé</string>
+    <string name="string50">50+</string>
+    <string name="_1">1</string>
+    <string name="_0">0</string>
+    <string name="_89">89</string>
+    <string name="_2">2</string>
+    <string name="_1_4k">1.4k</string>
+    <string name="t_ng_nh_qu_nh">Tăng Như Quỳnh</string>
+    <string name="_137_like">137 like</string>
+    <string name="top_model">Top Model</string>
+    <string name="top_user">Top User</string>
+    <string name="top_ch_">Top Chủ Đề</string>
+
+</resources>

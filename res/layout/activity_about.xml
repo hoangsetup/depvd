@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@drawable/boder_about" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/styleTitleContact"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/contact_info" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/styleContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:drawableLeft="@drawable/tel"
+        android:text="@string/numberfone" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/styleContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:drawableLeft="@drawable/email"
+        android:text="@string/email" />
+
+    <TextView
+        android:id="@+id/textView_facebook"
+        style="@style/styleContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView3"
+        android:drawableLeft="@drawable/facebook"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText_bodyemail"
+        style="@style/styleForm"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:background="@drawable/border_form"
+        android:gravity="top"
+        android:ems="10"
+        android:textColor="#000"
+        android:hint="@string/hint_contact"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText_bodyemail"
+        android:layout_below="@+id/editText_bodyemail"
+        android:background="#F38000"
+        android:drawableLeft="@drawable/send"
+        android:layout_marginTop="4dp"
+        android:paddingRight="2dp"
+        android:text="@string/btn_send"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textView_banquyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_bodyemail"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button_send"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/styleTitleContact"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignLeft="@+id/textView_facebook"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView_facebook"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/border_contactinfo"
+        android:text="@string/contact_form" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="66dp"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:contentDescription="@string/dsc_img"
+        android:src="@drawable/myavata" />
+
+</RelativeLayout>

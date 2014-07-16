@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myfivepanelpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        android:layout_centerHorizontal="true" >
+
+    </android.support.v4.view.ViewPager>
+
+    <ProgressBar
+        android:id="@+id/progressBar_albumactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/textView_count"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/counter_bg"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:text="@string/count_inalbum" />
+
+</RelativeLayout>
