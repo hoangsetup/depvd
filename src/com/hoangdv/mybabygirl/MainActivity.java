@@ -114,10 +114,6 @@ public class MainActivity extends Activity {
 		if (savedInstanceState == null) {
 			// on first time display view for first nav item
 			displayView(0);
-			// Fragment fragment = new FragmentParent();
-			// FragmentManager fragmentManager = getFragmentManager();
-			// fragmentManager.beginTransaction()
-			// .replace(R.id.frame_container, fragment).commit();
 		}
 	}
 
@@ -137,26 +133,6 @@ public class MainActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.main, menu);
-		// MenuItem itemSearch = menu.findItem(R.id.item_search_view);
-		// mSearchView = (SearchView) itemSearch.getActionView();
-		// mSearchView
-		// .setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-		//
-		// @Override
-		// public boolean onQueryTextSubmit(String arg0) {
-		// // TODO Auto-generated method stub
-		// Toast.makeText(MainActivity.this, arg0,
-		// Toast.LENGTH_SHORT).show();
-		// return true;
-		// }
-		//
-		// @Override
-		// public boolean onQueryTextChange(String arg0) {
-		// // TODO Auto-generated method stub
-		// return false;
-		// }
-		// });
-
 		return true;
 	}
 
